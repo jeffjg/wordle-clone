@@ -10,7 +10,8 @@ body {
 
 form.guess-attempt {
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
+  text-align: center;
 }
 
 .letter-choice {
@@ -22,13 +23,14 @@ form.guess-attempt {
   border: 0;
   margin: 0 1px;
   background: rgb(255, 245, 235);
-  color: rgb(150, 103, 56);
+  border: 4px solid rgb(235, 201, 168);
+  color: rgb(47, 171, 180);
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .letter-choice:focus {
-  outline-color: rgb(150, 103, 56);
+  outline-color: rgb(47, 171, 180);
 }
 
 .submit-guess {
@@ -36,6 +38,7 @@ form.guess-attempt {
   border-radius: 10px;
   border: none;
   background: salmon;
+  border: 2.5px solid rgb(211, 92, 78);
   color: white;
   margin-left: 10px;
 }
