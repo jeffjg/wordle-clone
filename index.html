@@ -4,11 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Wordle Clone</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-    <p>Something great this way comes.</p>
+    <div id="container">
+      <form id="attempt-1" class="guess-attempt">
+        <input class="letter-1 letter-choice" type="text" maxlength="1" />
+        <input class="letter-2 letter-choice" type="text" maxlength="1" />
+        <input class="letter-3 letter-choice" type="text" maxlength="1" />
+        <input class="letter-4 letter-choice" type="text" maxlength="1" />
+        <input class="letter-5 letter-choice" type="text" maxlength="1" />
+        <input class="submit-guess" type="submit" />
+      </form>
+    </div>
 
     <script src="script.js"></script>
   </body>

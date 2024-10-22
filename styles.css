@@ -1,0 +1,46 @@
+body {
+  background: rgb(244, 214, 181);
+}
+
+#container {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+form.guess-attempt {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.letter-choice {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 0;
+  margin: 0 1px;
+  background: rgb(255, 245, 235);
+  color: rgb(150, 103, 56);
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.letter-choice:focus {
+  outline-color: rgb(150, 103, 56);
+}
+
+.submit-guess {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: salmon;
+  color: white;
+  margin-left: 10px;
+}
+
+.submit-guess:hover {
+  cursor: pointer;
+  background: rgb(211, 92, 78);
+}
