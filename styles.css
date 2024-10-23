@@ -1,5 +1,5 @@
 body {
-  background: rgb(244, 214, 181);
+  background: #f4d6b5;
 }
 
 #container {
@@ -8,7 +8,7 @@ body {
   margin-top: 50px;
 }
 
-form.user-guess {
+form.guess-attempt {
   margin: 0 auto;
   width: 60%;
   text-align: center;
@@ -24,30 +24,42 @@ form.user-guess {
   text-transform: uppercase;
   border: 0;
   margin: 0 1px;
-  background: rgb(255, 245, 235);
-  border: 4px solid rgb(235, 201, 168);
-  color: rgb(47, 171, 180);
+  background: #fff5eb;
+  border: 4px solid #ebc9a8;
+  color: #106268;
   font-weight: bold;
   font-size: 1.3rem;
 }
 
 .letter-choice:focus {
-  outline-color: rgb(47, 171, 180);
-  outline-color: rgb(47, 171, 180);
+  outline-color: #2fabb4;
+  outline-color: #2fabb4;
 }
 
 .submit-guess {
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background: salmon;
-  border: 2.5px solid rgb(211, 92, 78);
-  border: 2.5px solid rgb(211, 92, 78);
-  color: white;
+  background: #fa8072;
+  border: 2.5px solid #d35c4e;
+  border: 2.5px solid #d35c4e;
+  color: #ffffff;
   margin-left: 10px;
 }
 
 .submit-guess:hover {
   cursor: pointer;
-  background: rgb(211, 92, 78);
+  background: #d35c4e;
+}
+
+.correct-position {
+  background: #abffab;
+}
+
+.incorrect-position {
+  background: #ffdc68;
+}
+
+.incorrect-letter {
+  background: #ff8a8a;
 }
